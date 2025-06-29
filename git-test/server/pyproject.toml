@@ -1,0 +1,16 @@
+[project]
+name = "server"
+version = "0.1.0"
+description = "backend of ocean-farm-viz"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "baidu-aip>=4.16.13",
+    "cryptography>=45.0.2",
+    "flask>=3.1.1",
+    "flask-cors>=5.0.1",
+    "flask-sqlalchemy>=3.1.1",
+    "pandas>=2.2.3",
+    "pymysql>=1.1.1",
+    "requests>=2.32.3",
+]
